@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", serif;
+}
+
+.dark-bg {
+  background-color: #1B1C25;
+}
+
+.text-pri {
+  color: rgb(239, 189, 49);
+}
+
+.btn-pri {
+  width: 220px;
+  padding: 11px;
+  background-color: #EFBD31;
+  color: #1B1C25;
+  transition: 0.6s;
+}
+.btn-pri:hover {
+  background-color: #dcab23;
+  scale: 0.9;
+}
+.btn-pri a {
+  text-decoration: none;
+  color: #1B1C25;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+#hero-con #text-top {
+  margin-top: 50px;
+}
+#hero-con .h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+#hero-con #hero-col img {
+  width: 600px;
+  position: relative;
+  left: calc(50% - 300px);
+}
+
+#offer .container .h3 {
+  font-weight: bold;
+}
+#offer .container p {
+  color: rgb(92, 92, 92);
+}
+#offer .container a {
+  text-decoration: none;
+}
+#offer .container a .card {
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.6s;
+  height: 220px;
+}
+#offer .container a .card:hover {
+  box-shadow: 20px 30px 50px rgba(184, 184, 184, 0.3);
+  border: none;
+}
+#offer .container a .card .h5 {
+  margin-top: 25px;
+}
+#offer .container a .card p {
+  font-size: 14px;
+}
+
+#secure .card {
+  background-color: #1B1C25;
+  padding: 40px;
+  border-radius: 30px;
+}
+#secure .card img {
+  width: 500px;
+}
+#secure .card .h1 {
+  margin-top: 30px;
+}
+#secure .card p {
+  color: rgb(202, 202, 202);
+  font-weight: 300;
+}
+#secure .prob {
+  text-decoration: none;
+  margin-top: 20px;
+}
+#secure .prob img {
+  width: 34px;
+}
+#secure .prob svg {
+  display: none;
+}
+#secure .prob .h5 {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  #hero-con #text-top {
+    margin-top: 0px;
+  }
+  #hero-con .h1 {
+    font-size: 40px;
+  }
+  #hero-con #hero-col img {
+    width: 400px;
+    left: calc(50% - 200px);
+    margin-top: 30px;
+  }
+  #secure .card {
+    padding: 20px;
+  }
+  #secure .card img {
+    width: 300px;
+    position: relative;
+    left: calc(50% - 150px);
+  }
+  #secure .prob {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #secure .prob svg {
+    display: block;
+    position: relative;
+    left: 50%;
+  }
+  #secure .prob img {
+    width: 50px;
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
